@@ -8,17 +8,11 @@
 
 // Object.assign(Toy.prototype, {
 //     toString() {
-//       return `Имя: ${this.name}, Возраст: ${this.age}, Цена:${this.Price}, Производитель:${this.counties}`;
+//       return `Имя: ${this.name}, Возраст: ${this.age}, Цена:${this.Price()}, Производитель:${this.counties}`;
 //     },
-//     fullName() {
-//       return `${this.surname} ${this.name}`;
-//     },
-//     age() {
-//       return new Date().getFullYear() - this.yearOfBirthday;
-//     },
-//     isAdult() {
-//       return this.age() >= 18;
-//     },
+// get() {
+// return `Цена игрушки - ${this.priceR}.${this.priceK}`
+// }
 //   });
 
 // создание класса второй споcоб
